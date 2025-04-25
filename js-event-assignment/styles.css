@@ -1,0 +1,108 @@
+body {
+  font-family: Trebuchet MS;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button.clicked {
+  background-color: lightblue;
+}
+
+#gallery {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#gallery.hovered {
+  box-shadow: 0 0 10px #007BFF;
+}
+
+#galleryImg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+form {
+  margin-top: 30px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+p {
+  color: #777;
+  font-size: 0.9em;
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+
+p#nameFeedback,
+p#emailFeedback,
+p#passwordFeedback {
+  font-style: italic;
+  color: red;
+}
+
+#footer {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.8em;
+  color: #555;
+  background-color: #f9f9f9;
+  border-top: 1px solid #ddd;
+}
+  
